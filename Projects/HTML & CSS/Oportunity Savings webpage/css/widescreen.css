@@ -1,0 +1,13 @@
+/* #customers {
+  padding: 1.5rem;
+  flex-wrap: wrap;
+} */
+
+#who .left-img {
+  display: none;
+}
+
+#who .right-text {
+  width: 100%;
+  padding: 3.5rem 2rem;
+}
