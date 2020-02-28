@@ -1,0 +1,27 @@
+1. The project files are placed in folder Project files and should be copied into the root of the localserver or placed in another folder.
+
+2. If they are placed in another folder for example CITRUS, index page should be accessed with path localhost/citrus/index.php or just localhost/citrus/
+
+3. database is located in folder database and should be imported in phpmyadmin.
+
+4. database file is located in project folder and then folder INCLUDES. Privileges for accessing databes are 
+USERNAME = "ROOT"
+PASSWORD = ""
+If username or password on your local machine is different, you should change it in file db.php placed in INCLUDES folder so that database could be accessed. 
+
+4. On the main page they are 9 products, you can see more by clicking "See More" button under any of the items.
+
+5. You can add comments to any item but they will not become visible until administrator allows them.
+
+6. To log in as administrator go to the main page (index.php) and at the left bottom corner you will see red button - Login as admin.
+   Username is "admin" and password is "password" (without brackets).
+
+7. When you write a comment as a guest the comment is showed in the table in the admin section which can be accessed by entering the    username and password in the step above. Comments are "unapproved" by default and cannot be seen until administrator approves them. When 
+   approved, they can be seen by going to the specific item or quickly by clicking on the row - "In relation to". They could also be 
+   unapproved again or deleted if necessary.
+
+8. Once finished with administration work, administrator can logout by clicking on button  - LOGOUT placed below the comment table.
+
+9. When logged in administrator can access its page at any time or directly by writting url admin.php. But if he is logged out and try 
+  to directly access admin.php page he will get an error "You dont have permission to visit this page!". Also incorrect username or 
+  password when submitting the login form also shows a warning.
