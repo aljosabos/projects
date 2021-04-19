@@ -2,6 +2,11 @@
 In app directory install node_modules with npm install
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Online version
+
+Online version of this app can be found on link
+https://lucid-euclid-fbaaf2.netlify.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
